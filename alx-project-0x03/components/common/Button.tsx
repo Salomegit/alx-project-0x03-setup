@@ -1,5 +1,6 @@
 import { ButtonProps } from "../../interfaces/index";
 
+
 const Button = ({ buttonLabel, buttonSize, buttonBackgroundColor, action }: ButtonProps) => {
   const backgroundColorClass = buttonBackgroundColor ? {
     red: 'bg-red-500',

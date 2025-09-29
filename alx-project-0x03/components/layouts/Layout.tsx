@@ -4,6 +4,7 @@ import Header from "./Header";
 import { LayoutProps } from "../../interfaces/index";
 
 
+
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <>
